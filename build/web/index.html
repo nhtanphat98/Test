@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<link rel="stylesheet" type="text/css" href="demo.css"/>
+<head>
+	<title>Login Page</title>
+</head>
+<body>
+	<div class="loginbox">
+		<img src="avatar.png" class="avatar"/>
+        <h1>Login</h1>
+        
+            <form action="StudentManagerServlet" method="POST">
+                <table>
+                
+                Username: <input type="text" name="txtUsername" placeholder="Enter Username"/><br/>
+                Password: <input type="password" name="txtPassword" placeholder="Enter Password "/><br/>
+                </table>
+                <input type="hidden" name="action" value="Login"/>
+                <input type="submit" value="Login"/>
+                <input type="reset" value="Reset"/>
+            </form>     
+        
+    </div>
+</body>
+</html
